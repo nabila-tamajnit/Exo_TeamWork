@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/global.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="style/contact.css" media="screen and (min-width: 768px)">
+
+    <title>Urban Coffee</title>
+
+    <link rel="stylesheet" href="style/contact.css">
+    <script defer src="main.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fira+Code:wght@300..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="">Urban Coffee</a>
+
+            <img id="burger" class="burger" src="Images/icones/burger-bar (2).png" alt="">
+
+            <ul id="menu" class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="products.html">Nos saveurs</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="title_form">
+                <h2>Plus d'information? Completez le formulaire</h2>
+            </div>
+            <form method="post" action="javascript:void(0)">
+                <div class="last_first_n">
+
+                    <div>
+                        <label for="lastname">Nom</label>
+                        <input autofocus id="lastname" name="lastname" placeholder="Nom" type="text" required>
+                    </div>
+                    <div>
+                        <label for="firstname">Prénom</label>
+
+                        <input id="firstname" name="firstname" placeholder="Prénom" type="text" required>
+                    </div>
+                </div>
+                <div class="email_tel">
+                    <div>
+                        <label for="email">Email</label>
+
+                        <input id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                    <div>
+                        <label for="tel">Téléphone</label>
+
+                        <input id="tel" name="tel" placeholder="Numéro de téléphone" type="tel">
+                    </div>
+                </div>
+                <div class="sujet_contact">
+                    <div>
+                        <p>Comment souhaitez-vous être contacté(e) ?</p>
+
+                        <div class="radio">
+                            <div>
+                                <input type="radio" name="contact" value="email" required>
+                                <label>Par e-mail</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="contact" value="telephone">
+                                <label>Par téléphone</label>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div>
+                        <label for="sujet">Sujet de votre message :</label>
+
+                        <select name="sujet" id="sujet" required>
+
+                            <option selected hidden value="">-- Sélectionnez un sujet --</option>
+
+                            <option value="commande">Commande ou produit</option>
+                            <option value="avis">Donner votre avis</option>
+                            <option value="collaboration">Collaboration / partenaria</option>
+                            <option value="autre">Autre demande</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="container_textarea">
+                    <label for="msg">Votre message</label>
+
+                    <textarea placeholder="Écrivez votre message" spellcheck="true" rows="9" cols="50" name="message"
+                        id="msg" required></textarea>
+                </div>
+                <div class="chbox">
+                    <input id="donnees" name="donnees" type="checkbox" required>
+                    <label for="donnees">J’accepte que mes données soient utilisées pour être recontacté(e).</label>
+                </div>
+                <div class="box_btn">
+                    <button>Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Urban Coffe - Tous droit réservés</p>
+        <div>
+            <a href="https://be.linkedin.com">
+                <img src="Images/icones/facebook.png" alt="logo facebook">
+            </a>
+            <!-- <a href="https://twitter.com/">
+                <img src="Images/icones/twitter.png" alt="logo Twitter">
+            </a> -->
+            <a href="https://www.instagram.com/">
+                <img src="Images/icones/instagram.png" alt="logo Instagram">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

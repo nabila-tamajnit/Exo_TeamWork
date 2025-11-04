@@ -1,0 +1,33 @@
+footer {
+    background-color: #141517;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: white;
+
+    p {
+        @media (max-width: 775px) {
+            font-size: 0.8rem;
+        }
+    }
+
+    div {
+        /* background-color: aqua; */
+        width: fit-content;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+
+        a {
+
+            img {
+
+                @media (max-width: 775px) {
+                    width: 2rem;
+                }
+            }
+        }
+    }
+}
