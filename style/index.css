@@ -65,7 +65,7 @@ header {
 
                 h2 {
                     font-family: var(--police-title);
-                    color: #795A30;
+                    color: #337930;
                     font-size: 4.5em;
 
                     @media (max-width: 775px) {
