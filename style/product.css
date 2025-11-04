@@ -1,7 +1,7 @@
 @import url(./global.css);
 
 header {
-    background: linear-gradient(0deg, rgba(253, 248, 248, 0) 0%, rgba(0, 0, 0, 0.89) 90%), url(/Images/bg_product/bg_p_4.jpg);
+    background: linear-gradient(0deg, rgba(253, 248, 248, 0) 0%, rgba(0, 0, 0, 0.89) 90%), url(/Images/bg_product/BG_Product.jpg);
     background-position: 80% 35%;
     background-repeat: no-repeat;
     background-color: #aaabaf31;
