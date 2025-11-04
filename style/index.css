@@ -1,9 +1,9 @@
 @import url(./global.css);
 
 header {
-    background: linear-gradient(0deg, rgba(253, 248, 248, 0) 0%, rgba(0, 0, 0, 0.76) 93%), url(/Images/bg_index/BG_C_1.jpg);
+    background: linear-gradient(0deg, rgba(253, 248, 248, 0) 0%, rgba(0, 0, 0, 0.76) 93%), url(/Images/bg_index/BG_index.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-color: #aaabaf31;
     height: 90vh;
